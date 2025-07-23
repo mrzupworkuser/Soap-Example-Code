@@ -35,7 +35,7 @@ $client = new CybsSoapClient();
 $reply = $client->runTransactionFromFile('path/to/my.xml', $referenceCode);
 ```
 
-Or, you can create your own XML string and use that instead:
+Or, you can create your own XML string and use that instead: 
 
 ```php
 $xml = "";
